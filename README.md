@@ -11,15 +11,13 @@ Domain yang dipilih adalah Sistem Informasi Akademik. API ini memungkinkan penge
 
 ## ⚙️ Langkah Instalasi & Cara menjalankan
 1. Clone Repositori:
-'''git clone https://github.com/Azaryn/PAA_LKM1.git'''
+`git clone https://github.com/Azaryn/PAA_LKM1.git`
 2. Buka project: open folder menggunakan Visual Studio 2022.
 3. Restore NuGet Packages: Klik kanan pada solution explorer dan pilih Restore NuGet Packages untuk mengunduh library Npgsql secara otomatis
 4. Konfigurasi Koneksi: Buka file appsettings.json dan sesuaikan ConnectionString dengan kredensial PostgreSQL lokal: 
-'''
-"ConnectionStrings": {
+`"ConnectionStrings": {
   "WebApiDatabase": "Host=127.0.0.1; Port=5432; Database=NamaDB; Username=postgres; Password=isipassword;"
-}
-'''
+}`
 5. Jalankan Aplikasi: Tekan F5 atau klik start untuk menjalankan aplikasi. akan otomatis terbuka di browsert melalui Swagger UI
 
 ## 🗄️ Cara Import Database
