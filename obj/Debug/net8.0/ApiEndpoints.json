@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "LKM1.Controllers.MuridController",
+    "Method": "ListMurid",
+    "RelativePath": "api/murid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LKM1.Controllers.MuridController",
+    "Method": "PostMurid",
+    "RelativePath": "api/murid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "LKM1.Models.Murid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LKM1.Controllers.MuridController",
+    "Method": "GetMuridById",
+    "RelativePath": "api/murid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LKM1.Controllers.MuridController",
+    "Method": "DeleteMurid",
+    "RelativePath": "api/murid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LKM1.Controllers.MuridController",
+    "Method": "PutMurid",
+    "RelativePath": "api/murid/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "m",
+        "Type": "LKM1.Models.Murid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
