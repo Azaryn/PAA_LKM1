@@ -1,5 +1,5 @@
-#README – PAA LKM 1
-## Deskripsi Proyek
+# 📖 README – PAA LKM 1
+## 🤖 Deskripsi Proyek
 Project ini adalah Web API Manajemen Data Murid yang dibangun untuk memenuhi tugas LKM 1 mata kuliah Pemrograman Antarmuka Aplikasi. 
 Domain yang dipilih adalah Sistem Informasi Akademik. API ini memungkinkan pengelolaan data murid yang terintegrasi dengan sistem status melalui relasi database, serta menerapkan standar keamanan Parameterized Query.
 
@@ -9,7 +9,7 @@ Domain yang dipilih adalah Sistem Informasi Akademik. API ini memungkinkan penge
 * Database : PostgreSQL
 * Library & Packages : Npgsql dan Swashbuckle.AspNetCore
 
-##⚙️ Langkah Instalasi & Cara menjalankan
+## ⚙️ Langkah Instalasi & Cara menjalankan
 1. Clone Repositori:
 '''git clone https://github.com/Azaryn/PAA_LKM1.git'''
 2. Buka project: open folder menggunakan Visual Studio 2022.
